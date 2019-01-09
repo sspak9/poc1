@@ -56,11 +56,19 @@
             <v-list-tile-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-tile-action>
+           
             <v-list-tile-content>
               <v-list-tile-title>
-                {{ item.text }}
-              </v-list-tile-title>
-            </v-list-tile-content>
+                <div>
+                  
+                   <v-btn flat small>
+                      {{ item.text }}
+                   </v-btn>
+                  
+                </div>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            
           </v-list-tile>
         </template>
       </v-list>
@@ -104,9 +112,16 @@
       dialog: false,
       drawer: null,
       items: [
-        { icon: 'phonelink', text: 'Zipcode App' },
+        { icon: 'phonelink', text: 'Zipcode App' , link: 'zip.html' },
        
        
+        
+        { icon: 'settings', text: 'Settings' },
+        { icon: 'chat_bubble', text: 'Send feedback' },
+        { icon: 'help', text: 'Help' },
+       
+       
+        { icon: 'contacts', text: 'Contacts' },
         {
           icon: 'keyboard_arrow_up',
           'icon-alt': 'keyboard_arrow_down',
@@ -119,13 +134,7 @@
             { text: 'menu 4' }
            
           ]
-        },
-        { icon: 'settings', text: 'Settings' },
-        { icon: 'chat_bubble', text: 'Send feedback' },
-        { icon: 'help', text: 'Help' },
-       
-       
-        { icon: 'contacts', text: 'Contacts' }
+        }
       ]
     }),
     props: {
