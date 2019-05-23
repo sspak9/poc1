@@ -13,22 +13,22 @@
     "node": "10.12.0"
   },
   "dependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/polyfill": "^7.2.5",
-    "express": "^4.16.4",
-    "helmet": "^3.15.0",
-    "vue": "^2.5.21",
-    "vuetify": "^1.4.1"
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "express": "^4.17.0",
+    "helmet": "^3.18.0",
+    "vue": "^2.6.10",
+    "vuetify": "^1.5.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "vue-cli-plugin-vuetify": "^0.3.0",
-    "vue-template-compiler": "^2.5.21",
-    "vuetify-loader": "^1.1.1"
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
   },
   "eslintConfig": {
     "root": true,
