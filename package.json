@@ -21,14 +21,14 @@
     "vuetify": "^2.2.20"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.2.3",
-    "@vue/cli-plugin-eslint": "^4.2.3",
-    "@vue/cli-service": "^4.2.3",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.1",
+    "stylus-loader": "^7.1.0",
     "vue-cli-plugin-vuetify": "^2.0.5",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.4.3"
+    "vuetify-loader": "^1.9.2"
   },
   "eslintConfig": {
     "root": true,
